@@ -136,7 +136,7 @@ I would add a real optimisation solver with a weighted objective for fairness an
 - **Application URL:** https://garvit027.github.io/smart-roster/
 - **GitHub repository:** https://github.com/garvit027/smart-roster
 - **LinkedIn:** _add your public profile URL before sending_
-- **Demo video:** _record a 3–5 minute walkthrough covering roster generation, different brand schedules, conflict detection and the change simulator_
+- **Demo video:** _record a 3–5 minute walkthrough covering roster generation, different brand schedules, conflict detection and the change simulator — see [`SUBMISSION.md`](SUBMISSION.md) for a timed script and ready-to-send email draft_
 - **Email to:** ozair.shaikh@datastraw.in, aryan.jaiswal@datastraw.in
 - **CC:** talent@datastraw.in
 - **Subject:** Smart Roster Management System Assignment - Garvit Juneja
