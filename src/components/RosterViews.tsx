@@ -353,8 +353,9 @@ function CellEditor({ selection, onClose, processColor }: {
                 </select>
               </Field>
               <button className="btn btn-primary" onClick={() => {
-                addManual({ id: `manual-${Date.now()}-1`, date, allocationId: allocation.id, employeeId: employee.id, action: 'REMOVE', note: 'Manual reassignment' });
-                if (reassignTo) addManual({ id: `manual-${Date.now()}-2`, date, allocationId: allocation.id, employeeId: reassignTo, action: 'ADD', note: 'Manual reassignment' });
+                const stamp = Date.now();
+                addManual({ id: `manual-remove-${stamp}`, date, allocationId: allocation.id, employeeId: employee.id, action: 'REMOVE', note: 'Manual reassignment' });
+                if (reassignTo) addManual({ id: `manual-add-${stamp}`, date, allocationId: allocation.id, employeeId: reassignTo, action: 'ADD', note: 'Manual reassignment' });
                 onClose();
               }}><Check size={15} /> Apply reassignment</button>
             </>
